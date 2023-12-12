@@ -1,6 +1,7 @@
 // 3rd Party Dependencies
 require('dotenv').config();
 const mongoose = require('mongoose');
+require('dotenv').config();
 
 // Our own dependencies
 const server = require('./server.js');
@@ -12,6 +13,3 @@ mongoose.connect( process.env.MONGODB_URL );
 
 // Start up the server
 server.start( process.env.PORT || 3000 );
-app.get('/', (request, response) => {
-  response.status(200).send('Welcome!');
-});
