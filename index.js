@@ -12,4 +12,4 @@ const server = require('./server.js');
 mongoose.connect( process.env.MONGODB_URL );
 
 // Start up the server
-server.start( process.env.PORT || 3000 );
+server.start( process.env.PORT || 3001 );
