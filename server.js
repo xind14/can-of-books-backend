@@ -13,8 +13,15 @@ app.use(cors());
 
 
 app.get ('/books', handleGetBooks);
+app.post ('/books', handlePostBooks);
 
 async function handleGetBooks (request, response){
+  let filter = {};
+  const books = await Books.find(filter)
+  response.status(200).json(books);
+}
+
+async function handlePostBooks (request, response){
   let filter = {};
   const books = await Books.find(filter)
   response.status(200).json(books);
