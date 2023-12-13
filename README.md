@@ -11,7 +11,7 @@
 
 ### Lab 12
 
-**Version**: 1.0.1 (increment the patch/fix version number if you make more commits past your first submission)
+**Version**: 1.0.1 (updated to post to MongoDB)
 
 ### Lab 13
 
@@ -53,7 +53,7 @@ REACT, JavaScript, APIs, Axios, MONGODB.
 
 ### Lab 12
 
-- 12-07-2023 11:32pm - Application now has live forecast and movies rendered from API
+- 12-12-2023 - Back end can now post to MongoDB
 
 ### Lab 13
 
@@ -71,11 +71,13 @@ REACT, JavaScript, APIs, Axios, MONGODB.
 
 [Johns In Class Demo Lab 11](https://github.com/codefellows/seattle-code-301d110/tree/main/class-11/demo)
 
-
 ChatGPT/Tammy, John, Brandon
 
 Tuesday: 
-![Whiteboard Img](assets/whiteboard2.png)
+[Johns In Class Demo Lab 12](https://github.com/codefellows/seattle-code-301d110/blob/main/class-12/demo/back-end/server.js)
+
+ChatGPT(https://chat.openai.com/share/5e83ccaa-f50d-4505-b49e-149e9bddfe53)
+TA's: Brandon, Ike
 
 Wednesday: 
 ![Whiteboard Img](assets/whiteboard3.png)
